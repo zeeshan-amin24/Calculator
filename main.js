@@ -21,7 +21,7 @@ function calculate() {
         if (display.value === Infinity || display.value === -Infinity) {
             display.value = "Infinity"
         }
-        if(display.value="Infinity"){
+        if(display.value==="Infinity"){
 disableButtons()
         }else{
             enableButtons()
